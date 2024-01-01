@@ -1,0 +1,13 @@
+.descriptionText {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
