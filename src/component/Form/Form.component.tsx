@@ -44,7 +44,7 @@ const Form = (): JSX.Element => {
   };
 
   const handleClose = (
-    event: React.SyntheticEvent | Event,
+    _event: React.SyntheticEvent | Event,
     reason?: string
   ) => {
     if (reason === "clickaway") {
@@ -108,7 +108,7 @@ const Form = (): JSX.Element => {
               renderInput={(params) => {
                 return <TextField {...params} label="From" required />;
               }}
-              onChange={(event: any, item: any) => {
+              onChange={(_event: any, item: any) => {
                 setData((prev: any) => {
                   return {
                     ...prev,
