@@ -1,4 +1,4 @@
-# dzap-task
+# currency-converter-frontend
 
 ### Run Command
 
